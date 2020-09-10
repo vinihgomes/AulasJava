@@ -1,0 +1,14 @@
+
+public class Fatorial {
+	public static void main(String[] args) {
+		int fatorial = 1;
+		for (int num = 0; num <= 10 ; num++) {
+			System.out.println(num);
+			for (int i = 1; i <= num; i++) {
+				System.out.println(num);
+				fatorial = fatorial * i;
+			}
+			System.out.println(fatorial + " é o fatorial de " + num);
+		}
+	}
+}
